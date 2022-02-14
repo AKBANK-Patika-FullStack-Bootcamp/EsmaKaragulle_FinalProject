@@ -1,9 +1,19 @@
 # Apartman Yönetim Sistemi
-.NET Core kullanılarak yazılmış katmanlı mimariye sahip bir sistemdir (API'dır).İçerisinde ödeme sistemi ve mesajlaşma sistemide bulunan bir yönetim sisteminin Backend tarafıdır.  
-  
-##### Peki bu API içinde ne yapılar barıdırıyor?  
-Bir adet yönetici hesabının bulunduğu bu yapıda, yönetici sisteme kullanıcı,daire ve apartmanın ortak kullanımda olduğu fatura bilgilerini girip, kullanıcı ve daire bilgilerini düzenlemesini yapmaktadır.Yöneticinin sisteme kayıt ettiği kullanıcılar şifrelerini kimlik ve mail bilgileri ile edinip bu sisteme giriş yapabilmektedirler.Burada yönetici tarafından kendilerine gelen mesajları görüntüleyebilip,cevap verebilmektedirler.
-Kendilerine atanan fatura bilgilerini görüntüleyip ödeyebilmektedirler.Geçmişte yaptıkları ödemeleri listeleye bilmektedirler.
+.NET Core kullanılarak yazılmış katmanlı mimariye sahip bir Restful API.İçerisinde ödeme sistemi ve mesajlaşma sistemi de bulunan bir yönetim sisteminin Backend tarafıdır.  
+
+## Veritabanı diyagramı 
+![Diagram](https://github.com/esma6/akbank-finalProject-backend/blob/master/screenImages/dbDiagram.png)
+
+
+[Veritabanı ve Tablo oluşturma sorguları için tıklayınız ](https://github.com/esma6/akbank-finalProject-backend/blob/master/ApartmentQUERY.sql)
+
+
+## Yetki işlemleri
+![auth_create](https://github.com/esma6/akbank-finalProject-backend/blob/master/screenImages/authCREATE.png)
+
+#### TOKEN
+![auth_create](https://github.com/esma6/akbank-finalProject-backend/blob/master/screenImages/lgnTOKENURETILDI.png)
+
 
   
 ## Projede Kullanılan Mimari,Veri tabanı,Yapılar ve Paketler   
