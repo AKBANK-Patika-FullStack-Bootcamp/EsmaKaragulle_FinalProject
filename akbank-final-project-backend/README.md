@@ -1,5 +1,5 @@
 # Apartman Yönetim Sistemi
-.NET Core kullanılarak yazılmış katmanlı mimariye sahip bir Restful API.İçerisinde ödeme sistemi ve mesajlaşma sistemi de bulunan bir yönetim sisteminin Backend tarafıdır.  
+Bir apartman yetkilisinin daireleri ve daire işlemlerini yönetebilmeisi için yazılmış bir API. 
 
 ## Veritabanı diyagramı 
 ![Diagram](https://github.com/AKBANK-Patika-FullStack-Bootcamp/EsmaKaragulle_FinalProject/blob/master/akbank-final-project-backend/screenImages/dbDiagram.png)
